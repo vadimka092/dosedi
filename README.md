@@ -32,9 +32,9 @@
 
 ## Ссылки на исходники и работы
 
-Репозиторий: https://github.com/ваш_логин/fooddelivery-app
+Репозиторий: https://github.com/vadimka092/fooddelivery-app
 
-Образы: https://hub.docker.com/r/ваш_логин/fooddelivery-app
+Образы: https://hub.docker.com/r/vadimka092/fooddelivery-app
 
 ## Состояние разработки
 
