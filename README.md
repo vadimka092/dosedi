@@ -26,7 +26,7 @@
 
 Используйте другой порт компьютера, например 8081:
 
-    docker run --rm -p 8081:8080 ваш_логин/fooddelivery-app:0.0.1
+    docker run --rm -p 8081:8080 vadimka092/fooddelivery-app:0.0.1
 
 Откройте http://localhost:8081.
 
