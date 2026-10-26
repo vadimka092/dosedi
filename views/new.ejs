@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>Новый заказ</title></head>
+<body style="font-family: Arial; margin: 40px;">
+    <h2>Оформить новый заказ</h2>
+    <form action="/orders" method="POST">
+        <label>Название блюда (обязательно):</label><br>
+        <input type="text" name="dish" style="width: 300px; padding: 5px;"><br><br>
+        
+        <label>Адрес доставки:</label><br>
+        <input type="text" name="address" style="width: 300px; padding: 5px;"><br><br>
+        
+        <button type="submit" style="padding: 8px 20px;">Отправить заказ</button>
+    </form>
+    <br>
+    <a href="/">← На главную</a>
+</body>
+</html>
