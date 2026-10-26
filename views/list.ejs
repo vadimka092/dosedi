@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>Заказы</title></head>
+<body style="font-family: Arial; margin: 40px;">
+    <h2>Текущие заказы</h2>
+    <table border="1" cellpadding="10" style="border-collapse: collapse; width: 50%;">
+        <tr style="background: #eee;">
+            <th>ID</th><th>Блюдо</th><th>Адрес</th>
+        </tr>
+        <% if (orders.length === 0) { %>
+            <tr><td colspan="3">Заказов пока нет.</td></tr>
+        <% } else { %>
+            <% orders.forEach(order => { %>
+                <tr>
+                    <td><%= order.id %></td>
+                    <td><%= order.dish %></td>
+                    <td><%= order.address %></td>
+                </tr>
+            <% }) %>
+        <% } %>
+    </table>
+    <br>
+    <a href="/">← На главную</a> | <a href="/orders/new">Создать еще один</a>
+</body>
+</html>
